@@ -1,5 +1,5 @@
 import { authClient } from '#/lib/auth-client'
-import { authMiddleware } from '#/lib/middleware/middleware'
+import { authMiddleware } from '#/lib/middleware/middleware.server'
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/dashboard')({
